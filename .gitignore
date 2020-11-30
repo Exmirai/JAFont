@@ -20,12 +20,6 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
 # Executables
 *.exe
 *.out
@@ -34,3 +28,14 @@
 # VS Stuff
 *.log
 *.recipe
+*.pdb
+*.lastbuildstate
+*.txt
+*.idb
+*.tlog
+*.ilk
+
+# Fonts
+*.ttf
+*.fontdat
+*.png
