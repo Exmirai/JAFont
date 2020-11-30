@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\lodepng">
+      <UniqueIdentifier>{53ca1de3-e097-4fdc-a31c-57c3b9f1465d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\msdfgen">
+      <UniqueIdentifier>{bebdd94a-e3ea-431a-8d94-b4a2c104bd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\freetype">
+      <UniqueIdentifier>{bb87224b-674f-4166-92a5-0e62d0b69617}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JAFont.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng\lodepng.h">
+      <Filter>Исходные файлы\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="msdfgen\msdfgen.h">
+      <Filter>Исходные файлы\msdfgen</Filter>
+    </ClInclude>
+    <ClInclude Include="msdfgen\msdfgen-ext.h">
+      <Filter>Исходные файлы\msdfgen</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\ft2build.h">
+      <Filter>Исходные файлы\freetype</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sdf.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="png_io.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng\lodepng.cpp">
+      <Filter>Исходные файлы\lodepng</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
